@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    width:970px;
+    margin:auto;
+}
+
+h3{
+    margin:15px 0px 15px 0px;
+}
+
+.square{
+    width: 140px;
+    height:140px;
+    background-color:blue;
+}
+
+.circle{
+    width: 140px;
+    height:140px;
+    background-color:blue;
+    border-radius:50%;
+}
+
+.triangle{
+    width: 140px;
+    height:140px;
+    background-color:blue;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
+
+.pacman{
+    width: 0;
+    height: 0;
+    border-right: 70px solid transparent;
+    border-top: 70px solid blue;
+    border-left: 70px solid blue;
+    border-bottom: 70px solid blue;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
